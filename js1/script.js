@@ -1,13 +1,13 @@
 //DOM amaliyoti
 
-const getRandomNumber = (min, max) => {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-  }
+function getRandomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
   
   
   const generate = () => {
-    const minEl = documnet.getElementById('min');
-    const maxEl = documnet.getElementById('max');
+    const minEl = document.getElementById('min');
+    const maxEl = document.getElementById('max');
     const min = Number(minEl.value);
     const max = Number(maxEl.value);
    
